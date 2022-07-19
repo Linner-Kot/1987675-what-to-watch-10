@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import { AppRoute } from "../../const";
+import { Link } from 'react-router-dom';
+import { AppRoute } from '../../const';
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 function AddReviewScreen(): JSX.Element {
