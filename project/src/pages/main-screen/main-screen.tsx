@@ -1,7 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
 import FilmCard from '../../components/film-card/film-card';
-// import FilmCard from '../../components/film-card/film-card';
 
 type MainPageProps = {
   title: string,
@@ -143,11 +141,11 @@ function MainScreen({title, genre, releaseDate}: MainPageProps): JSX.Element {
           </ul>
 
           <div className="catalog__films-list">
-            {FilmCard()}{FilmCard()}{FilmCard()}{FilmCard()}
-            {FilmCard()}{FilmCard()}{FilmCard()}{FilmCard()}
-            {FilmCard()}{FilmCard()}{FilmCard()}{FilmCard()}
-            {FilmCard()}{FilmCard()}{FilmCard()}{FilmCard()}
-            {FilmCard()}{FilmCard()}{FilmCard()}{FilmCard()}
+            <FilmCard /><FilmCard /><FilmCard /><FilmCard />
+            <FilmCard /><FilmCard /><FilmCard /><FilmCard />
+            <FilmCard /><FilmCard /><FilmCard /><FilmCard />
+            <FilmCard /><FilmCard /><FilmCard /><FilmCard />
+            <FilmCard /><FilmCard /><FilmCard /><FilmCard />
           </div>
 
           <div className="catalog__more">
